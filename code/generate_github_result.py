@@ -4,7 +4,7 @@ certification_result_with_denoiser = "/kaggle/working/certification_output/sigma
 certification_result_without_denoiser = "/kaggle/working/certification_output/sigma_0.25"
 
 plot_certified_accuracy_per_sigma_best_model(
-    "./github_figures/readme_example", 'With vs Without Denoiser', 1.0,
+    "/kaggle/working/certification_output", 'With vs Without Denoiser', 1.0,
     methods=
         [Line(ApproximateAccuracy(certification_result_with_denoiser), "$\sigma = 0.12$")],
     label='With Denoiser',

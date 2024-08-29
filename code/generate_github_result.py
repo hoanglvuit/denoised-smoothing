@@ -11,4 +11,4 @@ plot_certified_accuracy_per_sigma_best_model(
     methods_base=
         [Line(ApproximateAccuracy(certification_result_without_denoiser), "$\sigma = 0.12$")], 
     label_base='Without Denoiser',
-    sigmas=[0.25])
+    sigmas=[0.12])

@@ -1,7 +1,7 @@
 from analyze import plot_certified_accuracy_per_sigma_best_model, Line, ApproximateAccuracy
 
-certification_result_with_denoiser = "/kaggle/working/certification_output/sigma_0.25"
-certification_result_without_denoiser = "/kaggle/working/certification_output/sigma_0.25"
+certification_result_with_denoiser = "/kaggle/working/certification_output/sigma_0.12"
+certification_result_without_denoiser = "/kaggle/working/certification_output/sigma_0.12"
 
 plot_certified_accuracy_per_sigma_best_model(
     "/kaggle/working/", 'With vs Without Denoiser', 1.0,
